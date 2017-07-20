@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-top: 1%;
+}
+
+.fill {
+    height: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.nav-item {
+    background-color: #009688;
+}
+
+.nav-item a:hover {
+    box-shadow: none;
+}
+
+.connect {
+    margin: 0.2% 3% 0.2% 3%;
+}
+
+.reach {
+    padding-top: 5%;
+}
+
+.reach img {
+    display: inline;
+    box-sizing: border-box;
+}
+
+.section-content {
+    margin-top: 1%;
+}
+
+.msg h3 {
+    display: inline;
+}
+
+.blog {
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+
+.blog:hover {
+    color: #004d40;
+}
+
+#current-page a {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        margin-top: 25%;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    h3 {
+        font-size: 1.1em;
+    }
+}
