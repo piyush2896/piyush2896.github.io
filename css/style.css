@@ -166,6 +166,11 @@ article {
     font-size: 2em;
 }
 
+.content-describe {
+    text-align: justify;
+    margin-bottom: 1%;
+}
+
 /*
  *
  * Each Content is divided into
@@ -253,6 +258,10 @@ article {
 
     .nav-fixed-padding {
         padding-top: 9%;
+    }
+
+    p {
+        word-wrap: break-word;
     }
 }
 
