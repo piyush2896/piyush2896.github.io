@@ -27,7 +27,7 @@
         <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzdMNPdy99TNnTZ3szyjyh86YXKi-ME_qWrUX_timQ6JJ3wiKg/exec">
           <p>
             <label>Name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" required>
           </p>
           <p>
             <label>Company</label>
@@ -35,7 +35,7 @@
           </p>
           <p>
             <label>Email Address</label>
-            <input type="email" name="email">
+            <input type="email" name="email" required>
           </p>
           <p>
             <label>Phone Number</label>
@@ -43,7 +43,7 @@
           </p>
           <p class="full">
             <label>Message</label>
-            <textarea name="name" row="5"></textarea>
+            <textarea name="message" row="5" required></textarea>
           </p>
           <p class="full">
             <button>Submit</button>
@@ -51,6 +51,7 @@
         </form>
         <div style="display:none;" id="thankyou_message">
           <h3><em>Thanks</em> for contacting me! I will contact you soon</h3>
+		  <a href="https://piyush2896.github.io/" style="text-decoration:none; color:#009688">HOME</a>
         </div>
       </div>
     </div>
