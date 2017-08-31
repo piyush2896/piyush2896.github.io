@@ -1,6 +1,21 @@
 $(document).ready(function() {
 
-    type_cs_skills = 'horizontalBar';
+    ticks = [{ticks: {
+                suggestedMin: 60
+            }}]
+
+    width = $( window ).width();
+    if(width < 500){
+        type_cs_skills = 'bar';
+        scale = {
+            yAxes: ticks
+        };
+    }else{
+        type_cs_skills = 'horizontalBar';
+        scale = {
+            xAxes: ticks
+        };
+    }
 
     data_cs_skills = {
         labels: ['Python', 'Java', 'C/C++', 'Octave', 'Basic HTML', 'Basic CSS', 'JavaScript'],
@@ -36,13 +51,7 @@ $(document).ready(function() {
                 fontColor: '#000'
             }
         },
-        scales: {
-            xAxes: [{
-            ticks: {
-                suggestedMin: 60
-            }
-            }]
-        }
+        scales: scale
     }
 
     let cs_skills_chart = document.getElementById('cs-skils-chart').getContext('2d');
