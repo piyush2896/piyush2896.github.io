@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
     ticks = [{ticks: {
-                suggestedMin: 60
+                suggestedMin: 60,
+                autoSkip: false
             }}]
 
     width = $( window ).width();
@@ -10,11 +11,13 @@ $(document).ready(function() {
         scale = {
             yAxes: ticks
         };
+        default_font_size = 10;
     }else{
         type_cs_skills = 'horizontalBar';
         scale = {
             xAxes: ticks
         };
+        default_font_size = 18;
     }
 
     data_cs_skills = {
@@ -47,9 +50,6 @@ $(document).ready(function() {
         },
         legend: {
             display: false,
-            labels: {
-                fontColor: '#000'
-            }
         },
         scales: scale
     }
@@ -57,7 +57,7 @@ $(document).ready(function() {
     let cs_skills_chart = document.getElementById('cs-skils-chart').getContext('2d');
 
     Chart.defaults.global.defaultFontFamily = 'Lato';
-    Chart.defaults.global.defaultFontSize = 18;
+    Chart.defaults.global.defaultFontSize = default_font_size;
     Chart.defaults.global.defaultFontColor = '#777';
 
     let csChart = new Chart(cs_skills_chart, {
