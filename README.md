@@ -10,3 +10,5 @@ Things under development:
 1. Bootstrap CSS
 2. JQuery
 3. Google Fonts Lato
+4. Font Awesome
+5. Chart.js
