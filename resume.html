@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#38006b">
+
+    <title>Piyush Malhotra</title>
+
+    <link rel="shortcut icon" href="images/logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,700">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script type="text/javascript" src="js/resume-chart.js"></script>
+</head>
+<body>
+    <!-- Use of container-fluid class of Bootstrap to get a fullscreen experience
+         while keeping the grid system intact. -->
+    <div id="main" class="container-fluid">
+
+        <!-- Header Comprising of logo, Page heading and Tag line. -->
+        <header class="bg-primary row header">
+            <div class="col-md-2 col-xs-2">
+                <img class="img-responsive logo" src="images/logo.png" alt="Site Logo">
+            </div>
+            <div class="col-md-10 col-xs-10 align-right">
+                <h1 id="head">Piyush Malhotra</h1>
+                <h3 id="sub-head">Machine Learning Enthusiast <strong>&#9679;</strong> Loud Mouth <strong>&#9679;</strong> Adventurer</h3>
+            </div>
+        </header>
+
+        <!-- This section represents the navbar and allows easy access to website's componenets. -->
+        <section class="bg-primary-light row" id="navbar">
+            <nav class="nav col-lg-12 col-md-12">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="aboutme.html">About Me</a></li>
+                    <li class="nav-item" id="current-page" ><a href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- The start of the main content of the web page. -->
+        <div class="content">
+        <!-- This is custom button link points to the resume pdf. -->
+            <div class="row">
+                <div class="col-md-12 col-xs-12 blog-div">
+                    <a href="#" target="_blank">
+                        <h4 class="blog">Download</h4>
+                    </a>
+                </div>
+            </div>
+
+            <!--Education Section-->
+            <div class="row section-head">
+                <h2 class="col-md-10 col-md-offset-1">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+            </div>
+            <div class="section-content col-md-8 col-md-offset-2">
+                <ul>
+                    <li>
+                        <div class="detail">
+                            <article>Pursuing B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - Present].</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <article>Machine Learning Foundation Nanodegree Udacity (Certificate Earned on 14th August, 2017).</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <article>Machine Learning by Stanford University on Coursera. Certificate earned on January 18, 2017.</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <article>10 + 2 from Rosary Senior Secondary School [2013] CBSE Board with 89% Marks.</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <article>High School from Rosary Senior Secondary School [2011] CBSE Board with 8.4 CGPA.</article>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Skills Section-->
+            <div class="row section-head">
+                <h2 class="col-md-10 col-md-offset-1">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>Skills</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="chart-cs-skils">
+                    <canvas id="cs-skils-chart" width="900", height="418"></canvas>
+                </div>
+                <div class="chart-lib-skils" style="margin-top: 5%">
+                    <canvas id="lib-skils-chart" width="900", height="418"></canvas>
+                </div>
+            </div>
+
+            <!--Experience Section-->
+            <div class="row section-head">
+                <h2 class="col-md-10 col-md-offset-1">
+                <i class="fa fa-certificate" aria-hidden="true"></i>Experience</h2>
+            </div>
+            <div class="section-content col-md-8 col-md-offset-2">
+                <ul>
+                    <li>
+                        <div class="detail">
+                            <h3>Intern | Institute of System Studies and Analysis, Defence Research and Development Organisation (D.R.D.O)</h3>
+                            <p>MAY 2016 - JULY 2016 (8 weeks)</p>
+                            <article>Made a Mission Simulator Editor that can generate a Drools file from data entered by the user in the Editor. The Drool file generated is used to run a simulator to see the efficiency of the Mission planned.</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <h3>Vice President | Amity Software Testing Club, Amity University</h3>
+                            <p>JANUARY 2016 - PRESENT</p>
+                            <article>Organised various  Workshops and delivered speaker sessions on Android Application Development and Machine Learning.</article>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="detail">
+                            <h3>Vice President | Amity Software Engineering Club, Amity University</h3>
+                            <p>AUGUST 2017 - PRESENT</p>
+                            <article>Re-establishing the club and making a combined effort to bring it up on the mark.</article>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        <!-- This is custom button shaped link points to the blog. -->
+            <div class="row">
+                <div class="col-md-12 col-xs-12 blog-div">
+                    <a href="https://codeflaunt.wordpress.com" target="_blank">
+                        <h4 class="blog">Visit Blog</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Comprise of 5 self explanatory images each pointing to respective Social media sites. -->
+        <footer class="bg-primary text-center row">
+            <div class="col-md-12 col-xs-12">
+                <a href="https://www.facebook.com/piyush2896" target="_blank">
+                    <img src="images/facebook.png" class="connect" alt="Connect on Facebook">
+                </a>
+                <a href="https://github.com/piyush2896" target="_blank">
+                    <img src="images/github.png" class="connect" alt="Connect on Github">
+                </a>
+                <a href="https://twitter.com/piyush2896" target="_blank">
+                    <img src="images/twitter.png" class="connect" alt="Connect on Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/piyush2896/" target="_blank">
+                    <img src="images/linkedin.png" class="connect" alt="Connect on LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/piyush_2896/" target="_blank">
+                    <img src="images/instagram.png" class="connect" alt="Connect on Instagram">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
