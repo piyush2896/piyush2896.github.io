@@ -1,0 +1,54 @@
+{
+    "Education": {
+        "displayHead": "false",
+        "detail": [
+            "Pursuing B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - Present].",
+            "Machine Learning Foundation Nanodegree Udacity (Certificate Earned on 14th August, 2017).",
+            "Machine Learning by Stanford University on Coursera. Certificate earned on January 18, 2017.",
+            "10 + 2 from Rosary Senior Secondary School [2013] CBSE Board with 89% Marks.",
+            "High School from Rosary Senior Secondary School [2011] CBSE Board with 8.4 CGPA."
+        ]
+    },
+
+    "Experience": {
+        "displayHead": "true",
+        "detail": [
+            {
+                "head": "Computer Science Faculty | StarLight Academy",
+                "sub-head": "MAY 2017 - PRESENT",
+                "article": "Computer Science faculty teaching courses like C/C++, Java and Python with advanced courses like Android Application Development and Machine Learning."
+            },
+            {
+                "head": "Intern | StarLight Academy",
+                "sub-head": "MAY 2017 - JULY 2016 (12 weeks)",
+                "article": "Designed the front end (User Interface) of the academy's website. Latest figures of the advancement in admission figures will be released after website is made online."
+            },
+            {
+                "head": "Intern | Institute of System Studies and Analysis, Defence Research and Development Organisation (D.R.D.O)",
+                "sub-head": "MAY 2016 - JULY 2016 (8 weeks)",
+                "article": "Made a Mission Simulator Editor that can generate a Drools file from data entered by the user in the Editor. The Drool file generated is used to run a simulator to see the efficiency of the Mission planned."
+            },
+            {
+                "head": "Vice President | Amity Software Testing Club, Amity University",
+                "sub-head": "JANUARY 2016 - PRESENT",
+                "article": "Organised various  Workshops and delivered speaker sessions on Android Application Development and Machine Learning."
+            },
+            {
+                "head": "Vice President | Amity Software Engineering Club, Amity University",
+                "sub-head": "AUGUST 2017 - PRESENT",
+                "article": "Re-establishing the club and making a combined effort to bring it up on the mark."
+            }
+        ]
+    },
+
+    "Talks": {
+        "displayHead": "true",
+        "detail": [
+            {
+                "head": "Android Application Development Workshop",
+                "sub-head": "21st SEPTEMBER, 2016",
+                "article": "Gave an introductory workshop on Android Application Development organized by Amity Software Testing Club, Amity University, Noida."
+            }
+        ]
+    }
+}
