@@ -2,8 +2,8 @@ $(document).ready(function() {
   function loadJSON(callback) {
 
       var xobj = new XMLHttpRequest();
-          xobj.overrideMimeType("application/json");
-      xobj.open('GET', 'resume_data.json', true); // Replace 'my_data' with the path to your file
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', 'resume_data.json', true);
       xobj.onreadystatechange = function () {
             if (xobj.readyState == 4 && xobj.status == "200") {
               // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -50,6 +50,7 @@ $(document).ready(function() {
 
       $('#education').html(convertToHtml(actual_JSON.Education));
       $('#experience').html(convertToHtml(actual_JSON.Experience));
+      $('#accomplishment').html(convertToHtml(actual_JSON.Accomplishment));
       $('#talks').html(convertToHtml(actual_JSON.Talks));
    });
   }
