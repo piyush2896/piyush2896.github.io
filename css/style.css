@@ -151,6 +151,7 @@ article {
  *
  */
 
+
 .content img {
     margin-bottom: 7%;
     margin-top: 15%;
@@ -218,6 +219,10 @@ article {
     width: 30px;
     height: 30px;
     margin: 5px 3px 5px 3px;
+}
+
+#me{
+    margin: 2%;
 }
 
 #current-page a {
