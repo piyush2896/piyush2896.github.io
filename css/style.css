@@ -221,8 +221,8 @@ article {
     margin: 5px 3px 5px 3px;
 }
 
-#me{
-    margin: 2%;
+#me {
+    margin: 2% auto;
 }
 
 #current-page a {
@@ -267,6 +267,11 @@ article {
 
     p {
         word-wrap: break-word;
+    }
+
+    #me{
+        margin: 2% auto;
+        max-width: 50%;
     }
 }
 
