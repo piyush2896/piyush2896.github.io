@@ -28,3 +28,13 @@ div.project:hover {
 .project-row {
   margin-top: 10%;
 }
+
+@media only screen and (max-width: 771px) {
+  .project-row {
+    margin-top: 3%;
+  }
+
+  .project {
+    margin-top: 10%;
+  }
+}
