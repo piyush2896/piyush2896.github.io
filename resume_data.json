@@ -26,7 +26,7 @@
             {
                 "head": "Intern | Institute of System Studies and Analysis, Defence Research and Development Organisation (D.R.D.O)",
                 "sub-head": "MAY 2016 - JULY 2016 (8 weeks)",
-                "article": "Made a Mission Simulator Editor that can generate a Drools file from data entered by the user in the Editor. The Drool file generated is used to run a simulator to see the efficiency of the Mission planned."
+                "article": "Made a Mission Simulator Editor to generate a mission simulation file that can be ran to check the efficiency of the planned mission. "
             },
             {
                 "head": "Vice President | Amity Software Testing Club, Amity University",
