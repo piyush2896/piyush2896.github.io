@@ -33,3 +33,26 @@ li {
   margin-left: 0;
   margin-bottom: 0;
 }
+
+.resume {
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    background: #009688;
+}
+
+
+.resume a:hover {
+    text-decoration: none;
+}
+
+.resume:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
+  transition: 0.5s;
+}
