@@ -213,6 +213,11 @@ article {
  * Footer connect method
  *
  */
+ 
+ .social-connect {
+	 padding-top: 1%;
+	 padding-bottom: 1%;
+ }
 
 .connect {
     display: inline;
