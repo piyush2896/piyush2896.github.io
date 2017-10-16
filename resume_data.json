@@ -45,7 +45,7 @@
         "displayHead": "true",
         "detail": [
             {
-                "head": "Parameter Estimation of Software Relibability Growth Models Using Krill Herd Algorithm.",
+                "head": "Parameter Estimation of Software Reliability Growth Models Using Krill Herd Algorithm.",
                 "sub-head": "DATE OF CONFERENCE: 12-13 JANUARY, 2017",
                 "article": "The proposed approach put forward an effective estimation of the parameters for software reliability growth models with the help of Krill Herd Algorithm. The Software Reliability Growth model is considered to be incomplete, if the parameters of model are not known and are not validated over failure datasets. Many techniques are present for estimating parameters of model based on numerical estimation, but the scope of quality enhancement still remain open. The proposed Krill Herd Algorithm based approach outclasses the problems of numerical estimation. The proposed work is validated over four real-time datasets.  <a href=\"http://ieeexplore.ieee.org/document/7943260/\" target=\"blank\">Check it here.</a>"
             },
