@@ -3,6 +3,7 @@
         "displayHead": "false",
         "detail": [
             "Pursuing B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - Present].",
+            "Machine Learning Basic Nanodegree Udacity. Certificate Earned on November 13, 2017.",
             "Machine Learning Foundation Nanodegree Udacity. Certificate Earned on August 14, 2017.",
             "Machine Learning by Stanford University on Coursera. Certificate earned on January 18, 2017.",
             "10 + 2 from Rosary Senior Secondary School [2013] CBSE Board with 89% Marks.",
@@ -65,6 +66,11 @@
     "Talks": {
         "displayHead": "true",
         "detail": [
+            {
+                "head": "Encrypted Deep Learning",
+                "sub-head": "12th NOVEMBER, 2017",
+                "article": "Gave a talk on Encrypting Deep Learning models using Homomorphic Encryption, at #18 PyData Delhi Meetup, organized by PyData Delhi."
+            },
             {
                 "head": "Machine Learning: A Gentle Introduction",
                 "sub-head": "21st SEPTEMBER, 2017",
