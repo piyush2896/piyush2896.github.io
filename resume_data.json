@@ -3,6 +3,7 @@
         "displayHead": "false",
         "detail": [
             "Pursuing B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - Present].",
+            "Deep Learning Specialization Coursera. Certificate Earned on April 04, 2018."
             "Machine Learning Basic Nanodegree Udacity. Certificate Earned on November 13, 2017.",
             "Machine Learning Foundation Nanodegree Udacity. Certificate Earned on August 14, 2017.",
             "Machine Learning by Stanford University on Coursera. Certificate earned on January 18, 2017.",
@@ -14,6 +15,11 @@
     "Experience": {
         "displayHead": "true",
         "detail": [
+            {
+                "head": "Freelance Artificial Intelligence Developer"
+                "sub-head": "APRIL 2018 - PRESENT",
+                "article": "Freelance Artificial Intelligence Developer currently working locally and on UpWork with 95% completion rate."
+            }
             {
                 "head": "Computer Science Faculty | StarLight Academy",
                 "sub-head": "MAY 2017 - PRESENT",
