@@ -2,7 +2,7 @@
     "Education": {
         "displayHead": "false",
         "detail": [
-            "Pursuing B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - Present].",
+            "B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - 2018] with 7.14 CGPA.",
             "Deep Learning Specialization Coursera. Certificate Earned on April 04, 2018.",
             "Machine Learning Basic Nanodegree Udacity. Certificate Earned on November 13, 2017.",
             "Machine Learning Foundation Nanodegree Udacity. Certificate Earned on August 14, 2017.",
@@ -15,15 +15,20 @@
     "Experience": {
         "displayHead": "true",
         "detail": [
+			{
+				"head": "Machine Learning Intern | Untrodden Labs",
+                "sub-head": "JUNE 2018 - PRESENT",
+                "article": "Working on Company’s Things Go Social Platform. Figures will be out at least after a month of joining."
+			},
             {
                 "head": "Freelance Artificial Intelligence Developer",
                 "sub-head": "APRIL 2018 - PRESENT",
                 "article": "Freelance Artificial Intelligence Developer currently working locally and on UpWork with 95% completion rate."
             },
             {
-                "head": "Computer Science Faculty | StarLight Academy",
+                "head": "Machine Learning Instructor | StarLight Academy",
                 "sub-head": "MAY 2017 - PRESENT",
-                "article": "Computer Science faculty teaching courses like C/C++, Java and Python with advanced courses like Android Application Development and Machine Learning."
+                "article": "Instructor teaching courses like C/C++, Java and Python with advanced courses like Machine Learning and Deep Learning."
             },
             {
                 "head": "Intern | StarLight Academy",
@@ -72,7 +77,7 @@
     "Talks": {
         "displayHead": "true",
         "detail": [
-            {
+			{
                 "head": "Encrypted Deep Learning",
                 "sub-head": "12th NOVEMBER, 2017",
                 "article": "Gave a talk on Encrypting Deep Learning models using Homomorphic Encryption, at #18 PyData Delhi Meetup, organized by PyData Delhi."
