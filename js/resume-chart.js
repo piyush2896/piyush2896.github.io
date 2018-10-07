@@ -71,9 +71,9 @@ $(document).ready(function() {
     type_lib_skills = 'polarArea';
 
     data_lib_skills = {
-        labels: ['Tensorflow', 'Keras', 'Matplotlib', 'Numpy', 'Pandas', 'Deeplearning4j'],
+        labels: ['Tensorflow', 'Keras', 'PyTorch', 'Matplotlib', 'Numpy', 'Pandas'],
         datasets: [{
-            data: [80, 92, 85, 95, 95, 75],
+            data: [90, 92, 80, 95, 95, 95],
             backgroundColor: [
             'rgba(255, 99, 132, 0.6)',
             'rgba(54, 62, 235, 0.6)',
