@@ -3,21 +3,22 @@
 }
 
 body {
-  background: #009688;
+  /* background: #009688; */
   color: #485e74;
-  line-height: 1.6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
 }
 
-.container {
+/* .container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
+} */
+
+.page-content-wrapper{
+  color: #000000;
 }
 
-ul {
+.company-info > ul {
   list-style: none;
   padding: 0;
 }
@@ -31,21 +32,30 @@ ul {
   color: #fff;
 }
 
-.wrapper {
-  box-shadow: 0 0 20px 0 rgb(0, 150, 136, 0.7);
+.wrapper-contact {
+  box-shadow: 0 0 20px 0 rgb(6, 6, 6, 0.7);
 }
 
-.wrapper > * {
+.wrapper-contact > * {
   padding: 1em;
 }
 
 .company-info {
-  background: #93ede4;
+  background: rgba(6, 6, 6, 0.8);
 }
 
 .company-info h3, .company-info ul {
   text-align: center;
   margin: 0 0 1rem 0;
+  color: #bababa;
+}
+
+.company-info h3{
+  font-size: 1.5em;
+}
+
+.company-info ul{
+  font-size: 1.2em;
 }
 
 .contact {
@@ -75,18 +85,19 @@ ul {
 .contact form button, .contact form input, .contact form textarea {
   width: 100%;
   padding: 1em;
-  border: 1px solid #93ede4;
+  border: 1px solid #000000;
 }
 
 .contact form button {
-  background: #93ede4;
+  background: #000000;
   border: 0;
   text-transform: uppercase;
+  color: #bababa;
 }
 
 .contact form button:hover, .contact form button:focus {
-  background: #009688;
-  color: #fff;
+  background: #bababa;
+  color: #000000;
   outline: 0;
   transition: background-color 2s ease-out;
 }
@@ -94,12 +105,12 @@ ul {
 /*Large Screens*/
 
 @media (min-width:700px) {
-  .wrapper {
+  .wrapper-contact {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
 
-  .wrapper > * {
+  .wrapper-contact > * {
     padding: 2em;
   }
 
@@ -107,7 +118,7 @@ ul {
     text-align: left;
   }
 
-  ul li {
+  .company-info > ul li {
     font-size: 0.8em;
   }
 }
