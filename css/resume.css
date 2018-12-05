@@ -87,6 +87,7 @@ li {
   position: fixed;
   right: 25px;
   bottom: 25px;
+  z-index: 5;
 }
 
 .fab-content {
