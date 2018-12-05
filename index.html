@@ -1,95 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#38006b">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Piyush Malhotra</title>
-
-    <link rel="shortcut icon" href="images/logo.ico?">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,700">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
-
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108445296-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108445296-1');
-    </script>
-
 </head>
 <body>
-    <!-- Use of container-fluid class of Bootstrap to get a fullscreen experience
-         while keeping the grid system intact. -->
-    <div id="main" class="container-fluid bg-primary fill">
-        <div class="bg-primary row">
-            <div class="col-md-12 col-xs-12">
-                <img class="img-responsive logo center-block" src="images/logo.png" alt="Site Logo">
+    <div id="wrapper">
+        <!--Sidebar-->
+        <div id="sidebar-wrapper">
+            <div class="block logo">
+                <a href="/" class="person">
+                    <div class="person-avatar">
+                        <img class="img-responsive" src="img/me.jpg" alt="">
+                    </div>
+                </a>
+                <h1 id="person-name">Piyush Malhotra</h1>
+                <h2 id="person-title"></h2>
             </div>
-        </div>
-        <div class="bg-primary row">
-            <div class="col-md-12 col-xs-12 text-center">
-                <h1 id="head">Piyush Malhotra</h1>
-                <h3 id="sub-head">Machine Learning Enthusiast <strong>&#9679;</strong> Loud Mouth <strong>&#9679;</strong> Adventurer</h3>
-            </div>
-        </div>
-        <div class="bg-primary">
-        <hr style="padding:0; margin:0;">
-        </div>
-        <!-- Footer Comprise of 5 self explanatory images each pointing to respective Social media sites. -->
-        <div class="bg-primary text-center row social-connect">
-            <div class="bg-primary col-md-12 col-xs-12">
-                <a href="https://www.facebook.com/piyush2896" target="_blank">
-                    <img src="images/facebook.png" data-toggle="tooltip" title="Connect on Facebook" 
-					class="connect" alt="Connect on Facebook">
-                </a>
-                <a href="https://github.com/piyush2896" target="_blank">
-                    <img src="images/github.png" data-toggle="tooltip" title="Connect on Github" 
-					class="connect" alt="Connect on Github">
-                </a>
-                <a href="https://twitter.com/piyush2896" target="_blank">
-                    <img src="images/twitter.png" data-toggle="tooltip" title="Connect on Twitter" 
-					class="connect" alt="Connect on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/piyush2896/" target="_blank">
-                    <img src="images/linkedin.png" data-toggle="tooltip" title="Connect on LinkedIn" 
-					class="connect" alt="Connect on LinkedIn">
-                </a>
-                <a href="https://www.instagram.com/piyush_2896/" target="_blank">
-                    <img src="images/instagram.png" data-toggle="tooltip" title="Connect on Instagram" 
-					class="connect" alt="Connect on Instagram">
-                </a>
-				<a href="https://www.upwork.com/freelancers/~0173a7830a4efa139c" target="_blank">
-					<img src="images/upwork.png" data-toggle="tooltip" title="Connect on UpWork" 
-					class="connect" alt="Connect on UpWork">
-				</a>
-            </div>
-        </div>
-
-        <div class="bg-primary">
-        <hr style="padding:0; margin:0;">
-        </div>
-        <!-- This section represents the navbar and allows easy access to website's componenets. -->
-        <section class="bg-primary row" id="navbar">
-            <nav class="nav col-lg-12 col-md-12">
-                <ul class="nav-list">
-                    <li class="nav-item" id="current-page"><a href="/">Home</a></li>
-                    <li class="nav-item"><a href="aboutme.html">About Me</a></li>
-                    <li class="nav-item"><a href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <nav class="block nav-block">
+                <ul id="sidebar-nav">
+                    <li><a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/research_interest.html">Research Interest</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
                 </ul>
             </nav>
-        </section>
+            <div class="block social-block">
+                <div class="title">Let's Connect</div>
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="top-bar-wrapper">
+            <div class="social-block">
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <a onclick="navMenuExpand(this)" id="openup">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+        </div>
+        <div class="dropdown-content" id="dropdown-nav">
+            <a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/research_interest.html">Research Interest</a>
+            <a href="/contact.html">Contact Me</a>
+            <a href="/resume.html">Resume</a>
+        </div>
+        <!--Main Content-->
+        <div class="page-bg"></div>
+        <div class="page-content-wrapper">
+            <div class="page-content-inner" id="home-banner">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="text-block col-xs-10">
+                            <div class="col-xs-8 heading">Hi, I'm Piyush</div>
+                            <div class="col-xs-12">A <a href="https://goo.gl/maps/GkvyAJzzJ6K2">Delhilite</a> who loves to dig Deep in the woods of Artificial Intelligence. I like to find new ways to solve not so new but interesting problems. Fitting new models to data and articulating new ways to manipulate and personify things is what I think my field is all about. When not working or playing with data, you'll find me in the gym or writing new blog posts.</div>
+                        </div>
+                    </div>
+                    <div class="row banner-icons-row">
+                        <div class="col-xs-2 text-center"><i class="fas fa-laptop-code banner-icon"></i></div>
+                        <div class="col-xs-offset-2 col-xs-2 text-center"><i class="fas fa-brain banner-icon"></i></div>
+                        <div class="col-xs-offset-2 col-xs-2 text-center"><i class="fas fa-headphones-alt banner-icon"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/sidebar-title.js"></script>
+    <script src="js/nav-menu.js"></script>
 </body>
 </html>
