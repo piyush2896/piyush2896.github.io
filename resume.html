@@ -1,158 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#38006b">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resume.css">
     <title>Piyush Malhotra</title>
-
-    <link rel="shortcut icon" href="images/logo.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,700">
-    <link rel="icon" sizes="192x192" href="images/logo.png">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/resume.css">
-
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-    <script type="text/javascript" src="js/resume-chart.js"></script>
-    <script type="text/javascript" src="js/resume.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108445296-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108445296-1');
-    </script>
 </head>
 <body>
-    <!-- Use of container-fluid class of Bootstrap to get a fullscreen experience
-         while keeping the grid system intact. -->
-    <div id="main" class="container-fluid">
-
-        <!-- Header Comprising of logo, Page heading and Tag line. -->
-        <header class="bg-primary row header">
-            <div class="col-md-2 col-xs-2">
-                <img class="img-responsive logo" src="images/logo.png" alt="Site Logo">
+    <div id="wrapper">
+        <!--Sidebar-->
+        <div id="sidebar-wrapper">
+            <div class="block logo">
+                <a href="/" class="person">
+                    <div class="person-avatar">
+                        <img class="img-responsive" src="img/me.jpg" alt="">
+                    </div>
+                </a>
+                <h1 id="person-name">Piyush Malhotra</h1>
+                <h2 id="person-title"></h2>
             </div>
-            <div class="col-md-10 col-xs-10 align-right">
-                <h1 id="head">Piyush Malhotra</h1>
-                <h3 id="sub-head">Machine Learning Enthusiast <strong>&#9679;</strong> Loud Mouth <strong>&#9679;</strong> Adventurer</h3>
-            </div>
-        </header>
-
-        <!-- This section represents the navbar and allows easy access to website's componenets. -->
-        <section class="bg-primary-light row" id="navbar">
-            <nav class="nav col-lg-12 col-md-12">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="/">Home</a></li>
-                    <li class="nav-item"><a href="aboutme.html">About Me</a></li>
-                    <li class="nav-item" id="current-page" ><a href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <nav class="block nav-block">
+                <ul id="sidebar-nav">
+                    <li><a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/research_interest.html">Research Interest</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    <li><a href="/resume.html" class="active">Resume</a></li>
                 </ul>
             </nav>
-        </section>
-
-        <!-- The start of the main content of the web page. -->
-        <div class="content">
-        <!-- This is custom button link points to the resume pdf. -->
-            <div class="row">
-                <div class="col-md-12 col-xs-12 resume-div">
-                    <a href="/assets/resume.pdf" target="_blank">
-                        <h4 class="resume">Download</h4>
-                    </a>
-                </div>
-            </div>
-
-            <!--Education Section-->
-            <div class="row section-head">
-                <h2 class="col-md-10 col-md-offset-1">
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
-            </div>
-            <div class="section-content col-md-8 col-md-offset-2">
-                <ul id="education">
-                </ul>
-            </div>
-
-            <!--Skills Section-->
-            <div class="row section-head">
-                <h2 class="col-md-10 col-md-offset-1">
-                <i class="fa fa-line-chart" aria-hidden="true"></i>Skills</h2>
-            </div>
-            <div class="col-md-10 col-md-offset-1">
-                <div class="chart-cs-skils">
-                    <canvas id="cs-skils-chart" width="1200", height="418"></canvas>
-                </div>
-                <div class="chart-lib-skils" style="margin-top: 5%">
-                    <canvas id="lib-skils-chart" width="900", height="418"></canvas>
-                </div>
-            </div>
-
-            <!--Experience Section-->
-            <div class="row section-head">
-                <h2 class="col-md-10 col-md-offset-1">
-                <i class="fa fa-certificate" aria-hidden="true"></i>Experience</h2>
-            </div>
-            <div class="section-content col-md-8 col-md-offset-2">
-                <ul id="experience">
-                </ul>
-            </div>
-
-            <!--Accomplishments Section-->
-            <div class="row section-head">
-                <h2 class="col-md-10 col-md-offset-1">
-                <i class="fa fa-trophy" aria-hidden="true"></i>Accomplishments</h2>
-            </div>
-            <div class="section-content col-md-8 col-md-offset-2">
-                <ul id="accomplishment">
-                </ul>
-            </div>
-
-            <!--Talks Section-->
-            <div class="row section-head">
-                <h2 class="col-md-10 col-md-offset-1">
-                <i class="fa fa-volume-up" aria-hidden="true"></i>Talks</h2>
-            </div>
-            <div class="section-content col-md-8 col-md-offset-2">
-                <ul id="talks">
-                </ul>
-            </div>
-        <!-- This is custom button shaped link points to the blog. -->
-            <div class="row">
-                <div class="col-md-12 col-xs-12 blog-div">
-                    <a href="https://predictiveprogrammer.com/" target="_blank">
-                        <h4 class="blog">Visit Blog</h4>
-                    </a>
+            <div class="block social-block">
+                <div class="title">Let's Connect</div>
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-
-        <!-- Footer Comprise of 5 self explanatory images each pointing to respective Social media sites. -->
-        <footer class="bg-primary text-center row">
-            <div class="col-md-12 col-xs-12">
-                <a href="https://www.facebook.com/piyush2896" target="_blank">
-                    <img src="images/facebook.png" class="connect" alt="Connect on Facebook">
-                </a>
-                <a href="https://github.com/piyush2896" target="_blank">
-                    <img src="images/github.png" class="connect" alt="Connect on Github">
-                </a>
-                <a href="https://twitter.com/piyush2896" target="_blank">
-                    <img src="images/twitter.png" class="connect" alt="Connect on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/piyush2896/" target="_blank">
-                    <img src="images/linkedin.png" class="connect" alt="Connect on LinkedIn">
-                </a>
-                <a href="https://www.instagram.com/piyush_2896/" target="_blank">
-                    <img src="images/instagram.png" class="connect" alt="Connect on Instagram">
-                </a>
+        <div id="top-bar-wrapper">
+            <div class="social-block">
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
-        </footer>
+            <a onclick="navMenuExpand(this)" id="openup">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+        </div>
+        <div class="dropdown-content" id="dropdown-nav">
+                <a href="/">Home</a>
+                <a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a>
+                <a href="/portfolio.htm">Portfolio</a>
+                <a href="/research_interest.html">Research Interest</a>
+                <a href="/contact.html">Contact Me</a>
+                <a href="/resume.html">Resume</a>
+        </div>
+        <!--Main Content-->
+        <div class="page-bg"></div>
+        <div class="page-content-wrapper">
+            <div class="fab-btn">
+                <a href="/assets/resume.pdf" target="_blank" class='fab-link'>
+                    <i class="fas fa-file-download"></i></a>
+            </div>
+            <div class="fab-content">
+                <p>Download 1 Page Resume. Last Updated - 5<sup>th</sup> December, 2018</p>
+            </div>
+            <div class="page-content-inner not-home">
+                <div class="container-fluid">
+                    <!-- Education Section -->
+                    <div class="row section-head">
+                        <h2 class="col-md-10 col-md-offset-1">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+                    </div>
+                    <div class="section-content col-md-8 col-md-offset-2">
+                        <ul id="education">
+                        </ul>
+                    </div>
+        
+                    <!--Skills Section-->
+                    <div class="row section-head">
+                        <h2 class="col-md-10 col-md-offset-1">
+                            <i class="fas fa-chart-line"></i>Skills</h2>
+                    </div>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="chart-cs-skils">
+                            <canvas id="cs-skils-chart" width="1200", height="418"></canvas>
+                        </div>
+                        <div class="chart-lib-skils" style="margin-top: 5%">
+                            <canvas id="lib-skils-chart" width="900", height="418"></canvas>
+                        </div>
+                    </div>
+        
+                    <!--Experience Section-->
+                    <div class="row section-head">
+                        <h2 class="col-md-10 col-md-offset-1">
+                        <i class="fa fa-certificate" aria-hidden="true"></i>Experience</h2>
+                    </div>
+                    <div class="section-content col-md-8 col-md-offset-2">
+                        <ul id="experience">
+                        </ul>
+                    </div>
+        
+                    <!--Accomplishments Section-->
+                    <div class="row section-head">
+                        <h2 class="col-md-10 col-md-offset-1">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>Accomplishments</h2>
+                    </div>
+                    <div class="section-content col-md-8 col-md-offset-2">
+                        <ul id="accomplishment">
+                        </ul>
+                    </div>
+        
+                    <!--Talks Section-->
+                    <div class="row section-head">
+                        <h2 class="col-md-10 col-md-offset-1">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>Talks</h2>
+                    </div>
+                    <div class="section-content col-md-8 col-md-offset-2">
+                        <ul id="talks">
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/sidebar-title.js"></script>
+    <script src="js/nav-menu.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script type="text/javascript" src="js/resume-chart.js"></script>
+    <script type="text/javascript" src="js/resume.js"></script>
 </body>
 </html>

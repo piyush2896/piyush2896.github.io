@@ -1,3 +1,16 @@
+.page-content-inner{
+  color: #000000;
+  text-shadow: none;
+}
+
+hr {
+  border: 1px solid #000000;
+}
+
+.resume-heading{
+  text-transform: uppercase;
+}
+
 ul {
   display: block;
   list-style-type: disc;
@@ -22,7 +35,7 @@ li {
 }
 
 .section-content h3 {
-  color: #00bf92;
+  color: rgba(0, 0, 0, .9);
   font-weight: bold;
 }
 
@@ -45,7 +58,7 @@ li {
     border-radius: 10px;
     font-size: 22px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
-    background: #009688;
+    background: #bababa;
 }
 
 
@@ -56,4 +69,60 @@ li {
 .resume:hover {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
   transition: 0.5s;
+}
+
+.fab-btn {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.fab-content {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 0 6px 10px 0 #666;
+  color: white;
+  text-align: justify;
+  transition: all 0.1s ease-in-out;
+  display: none;
+
+  position: fixed;
+  right: 85px;
+  bottom: 30px;
+  z-index: 5;
+}
+
+.show-fab {
+   display: block;
+}
+
+.fab-link{
+   text-decoration: none;
+   color: #bababa;
+}
+
+
+.fab-link:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.fab-btn:hover {
+  box-shadow: 0 6px 14px 0 #666;
+  background-color: #000000;
+  transform: scale(1.05);
 }
