@@ -1,0 +1,122 @@
+[
+    {
+        "project_name": "CoordConv Implementation",
+        "project_desc": "This repository houses my implementations of the CoordConv layer as introduced in paper - An intriguing failing of convolutional neural networks and the CoordConv solution by Liu <i>et al.</i>",
+        "project_img": "coordconv.jpg",
+        "link": "/CoordConv-Implementation/"
+    },
+    {
+        "project_name": "Image Captioning",
+        "project_desc":"This Repository Contains code for image captioning. The code uses TensorFlow Hub mobilenet module for image features. These features are given as hidden state input to the LSTM Cells. ",
+        "project_img": "image-captioning.jpg",
+        "link": "/Image-Captioning/"
+    },
+    {
+        "project_name": "NALU Implementation",
+        "project_desc": "This repository houses my implementations of the Neural Arithmetic Logic Unit (NALU) as introduced in paper - Neural Arithmetic Logic Units by Trask <i>et al.</i>",
+        "project_img": "nalu.jpg",
+        "link": "/NeuralALU/"
+    },
+    {
+        "project_name": "Capsule Networks",
+        "project_desc": "In this repository, I created a capsule network inspired by paper - Dynamic Routing Between Capsules by Sabour <i>et al.</i>",
+        "project_img": "capsule_net.jpg",
+        "link": "/CapsuleNetworks/"
+    },
+    {
+        "project_name": "PSO for Neural Networks",
+        "project_desc":"This is an experiment work done to remove Backpropagation and in-turn Gradient Descent and use Particle Swarm Optimization technique for Neural Network Training.",
+        "project_img": "ParticleSwarmArrowsAnimation.gif",
+        "link": "/PSO-for-Neural-Nets/"
+    },
+    {
+        "project_name": "Neural Style Transfer",
+        "project_desc":"This repository uses VGG-16 or VGG-19 pretrained model to do Neural Style transfer. Completely implemented in TensorFlow.",
+        "project_img": "neural_style_transfer.jpg",
+        "link": "/Neural-Style-Transfer/"
+    },
+    {
+        "project_name": "CNN Text Classifier",
+        "project_desc":"This application is built by replicating work done in paper - Convolutional Neural Networks for Sentence Classification by Kim, Yoon.",
+        "project_img": "cnn_for_text.jpg",
+        "link": "/CNN-Text-Classifier/"
+    },
+    {
+        "project_name": "Autoencoder Implementations",
+        "project_desc":"This repository contains my implementations for various autoencoders - Unsupervised training of Deep Neural Networks.",
+        "project_img": "autoencoders.jpg",
+        "link":"/Autoencoder-Implementations/"
+    },
+    {
+        "project_name": "Generative Adversarial Network",
+        "project_desc":"What if we make two networks play along? One to fool other and other to not get fooled easily! The two networks are - Generator and Discriminator, collectively called GANs",
+        "project_img": "gans.jpg",
+        "link": "/GenerativeAdversarialNetwork/"
+    },
+    {
+        "project_name": "Facial Expression Recognition",
+        "project_desc":"The jupyter notebook available here showcase my approach to tackle the kaggle problem of Facial Expression Recognition Challenge. Bonus! Try it with webcam.",
+        "project_img": "/expressions.jpg",
+        "link": "/Facial-Expression-Recognition-Challenge/"
+    },
+    {
+        "project_name": "Word2Vec",
+        "project_desc":"Word2Vec is an approach to convert words from our raw corpus to vectors in such a manner that each element of vector represents a relationship between the words.",
+        "project_img": "word2vec.jpg",
+        "link": "/Word2Vecs/"
+    },
+    {
+        "project_name": "Parameter Estimation using SA",
+        "project_desc":"Software Reliability Growth Model (SRGM) is a way to generate a mapping of number of days of a software to its failure frequency. This code uses Simulated Annealing to guess SRGM params.",
+        "project_img": "parameter_estimation.jpg",
+        "link": "/Simulated-Annealing-Parameter-Estimation/"
+    },
+    {
+        "project_name": "ML Algos From Scratch",
+        "project_desc":"This repository contains some machine learning algorithms wrote from scratch in Python using NumPy only.",
+        "project_img": "mlfromscratch.jpg",
+        "link": "/MachineLearningAlgosFromScratch/"
+    },
+    {
+        "project_name": "Language Modeling",
+        "project_desc":"Language modeling using Deep Learning is a way of asking a model to predict which word grammatically (more like logically) comes next. This model is pretty useful in many applications.",
+        "project_img": "language_modeling.png",
+        "link": "/LanguageModeling-TF/"
+    },
+    {
+        "project_name": "Q-Learning",
+        "project_desc":"There are drawbacks, like requirement of knowing the dynamics of the environment, which we face when using techniques like Value Iteration and Policy iteration. Sampling-based approx. techniques like Q-Learning overcomes it.",
+        "project_img": "q_learning.jpg",
+        "link": "/Q-Learning/"
+    },
+    {
+        "project_name": "Policy Iteration",
+        "project_desc":"Implementation of Policy Iteration, a Reinforcement Learning technique. Rather than going for the optimal policy directly we iteratively increase our current policy of the agent.",
+        "project_img": "policy_iter.jpg",
+        "link":"/Policy-Iteration/"
+    },
+    {
+        "project_name": "Q Value Iteration",
+        "project_desc":"Q-value is an exact method of solving a Reinforcement Learning problem. The goal of the task is to find expected utility starting in state s, taking action a, and (thereafter) acting optimally.",
+        "project_img": "q_value_iter.jpg",
+        "link": "/Q-Value-RL/"
+    },
+    {
+        "project_name": "Value Iteration",
+        "project_desc":"Value Iteration is an exact method of solving a Reinforcement Learning problem. The goal of the task is to find how much expected discounted reward we can get from s if we use the best possible policy.",
+        "project_img": "value_iter.jpg",
+        "link": "/ValueIteration-RL/"
+    },
+    {
+        "project_name": "Simple Recommender System",
+        "project_desc":"This repository contains a simple recommendation system, made completely from scratch (no external libraries required).",
+        "project_img": "recommended.jpg",
+        "link": "/Making-Recommendations/"
+    },
+    {
+        "project_name": "Twitter Scrapper",
+        "project_desc":"Twitter scrapping can be done in variety of ways. This repository works with one such solution.",
+        "project_img": "twitter_scrapper.jpg",
+        "link": "/Twitter-Scraper/"
+    }
+]

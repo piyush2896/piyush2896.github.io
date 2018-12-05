@@ -1,162 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#38006b">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <title>Piyush Malhotra</title>
-
-    <link rel="shortcut icon" href="images/logo.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,700">
-    <link rel="icon" sizes="192x192" href="images/logo.png">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108445296-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108445296-1');
-    </script>
 </head>
 <body>
-    <div class="container-fluid">
-        <!-- Header Comprising of logo, Page heading and Tag line. -->
-        <header class="bg-primary row header">
-            <div class="col-md-2 col-xs-2">
-                <img class="img-responsive logo" src="images/logo.png" alt="Site Logo">
+    <div id="wrapper">
+        <!--Sidebar-->
+        <div id="sidebar-wrapper">
+            <div class="block logo">
+                <a href="/" class="person">
+                    <div class="person-avatar">
+                        <img class="img-responsive" src="img/me.jpg" alt="">
+                    </div>
+                </a>
+                <h1 id="person-name">Piyush Malhotra</h1>
+                <h2 id="person-title"></h2>
             </div>
-            <div class="col-md-10 col-xs-10 align-right">
-                <h1 id="head">Piyush Malhotra</h1>
-                <h3 id="sub-head">Machine Learning Enthusiast <strong>&#9679;</strong> Loud Mouth <strong>&#9679;</strong> Adventurer</h3>
-            </div>
-        </header>
-
-        <!-- This section represents the navbar and allows easy access to website's componenets. -->
-        <section class="bg-primary-light row" id="navbar">
-            <nav class="nav col-lg-12 col-md-12">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="/">Home</a></li>
-                    <li class="nav-item"><a href="aboutme.html">About Me</a></li>
-                    <li class="nav-item"><a href="resume.html">Resume</a></li>
-                    <li class="nav-item" id="current-page"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <nav class="block nav-block">
+                <ul id="sidebar-nav">
+                    <li><a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a></li>
+                    <li><a href="/portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="/research_interest.html">Research Interest</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
                 </ul>
             </nav>
-        </section>
-
-        <!-- Start of new section of the contents of the web page -->
-        <div class="row section-head">
-            <h2 class="col-md-12 col-xs-12">Projects</h2>
-        </div>
-        <hr>
-        <div class="text-center">
-            <!--<div class="row section-head"><h3>Machine Learning</h3></div>-->
-            <div class="row project-row">
-                <div class="col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/fCPLiOfxdoLNpDNj3b1burY74uIsFBOI15dSZVy0PWxElDa7V7MxoVdVnI2Fm8WmjnzRxtBkj7XWH5yNkTJN-di11664Yea0SjDA0p-jjA8pBy_dYvRMZzVZPHwGIWmwEaLjyz9CMw" class="bg-img"></div>
-                    <a href="/Snapchat-Filter-Using-Facial-Keypoints"><h3 class="project-title">Snapchat Filter Using DL</h3></a>
-                    <p class="project-summary">A Deep Learning based project to stick snapchat filters on user's face.</p>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/qdZHAfPFsK9REdJjCr_0aXQYdP9oE5J9iJFoYgDDxEEH392Zxri6FSecuhbZmB8EuNk5FLkBpmlRzASWG_CeZolpeRY86zpOfr7XHAg5eanaHu8JLclWQDEtAgxikFRAbEQ9XMbtuw" class="bg-img"></div>
-                    <a href="/Facial-Expression-Recognition-Challenge">
-                      <h3 class="project-title">Expression Recognition Using DL</h3></a>
-                    <p class="project-summary">A Deep Learning based project to recognize the user's expressions.</p>
-                </div>
-            </div>
-            <div class="row project-row">
-                <div class="col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/lNLJB6N831TyUclM_P8lMMT4e7UluFudmRx6K-ntoJhKZW2c07OxnE3dvl6qCC9ubsEw8fiM2epAsXu3huFuwGPoLemAqAHIctzazE-7ikYNJULvzvv7SqlxOOzsxD0AVcEwQXmpIg" class="bg-img"></div>
-                    <a href="/Digit-Recognizer-Code-CNN">
-                      <h3 class="project-title">Digit Recognition Using DL</h3></a>
-                    <p class="project-summary">A Deep Learning based project to recognize hand written digits.</p>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2 project">
-                  <div style="background-image:url('https://lh3.googleusercontent.com/32I00qQTAPiex-7gqM273n_yLe5BB547FwobCgnVQ2uMhuaqYbsKKOZya-pb6KtsZfc4p5Fvbh2UkK0k9rzMYKW9wEWXVsMHrR8trfgOsEF2qb_6me_F3njw4XDz8riNOyP-uTH1-Q" class="bg-img"></div>
-                  <a href="/Predicting-Boston-Housing-Prices">
-                    <h3 class="project-title">House Price Prediction Using ML</h3></a>
-                    <p class="project-summary">A credited project for Machine Learning Foundation Nanodegree.</p>
-                </div>
-            </div>
-            <div class="row project-row">
-                <div class="col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/cbAvPGC2e-GGjuR9tDcQfv3S7oe0yvIJATRbrLb2DfuNm_yuT9lgpZZRs0jSbp09Tn_s3gIstD1fPk7lJKyjIn6v4f-mVYgSDDSkC1-ozcrTkIXcYI373Cs9T0q_7bp4MPOSaOSaRA" class="bg-img"></div>
-                    <a href="/Investigate-a-dataset"><h3 class="project-title">Investigate Titanic Dataset</h3></a>
-                    <p class="project-summary">A credited project for Machine Learning Foundation Nanodegree.</p>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/KZu9cE-VuH3UBIGcxlKPL2BwmGd9in-xSiNX9L-JD0w5mQa1x7zOVIMhK3nVhwGPO82Cy43W1PCop9oT-Gr-9W2_ZTGhe9me4bjeA6P-a08PxfQDTHQaOEo_Ap3LNeJpsV23M6vMIA" class="bg-img"></div>
-                    <a href="starlight-academy.github.io">
-                      <h3 class="project-title">StarLight Academy Website Dev</h3></a>
-                    <p class="project-summary">Website UI development for StarLight Academy to give a rich user experience.</p>
-                </div>
-            </div>
-            <div class="row project-row">
-                <div class="col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/YdXowweFn1ZngJd2oTkXkXEfUEcHSgHOnLdREpA8bj5HCf2UsS6SvodtXUQfbXIlqvnRXYrdY3U8AWetjFxHLpyum35AuRSvwLpE9iTPVDJlLYfgMPG61VjYBB5zkouOqkmbeI_FLQ" class="bg-img"></div>
-                    <a href="/Test-A-Perceptual-Phenomenon">
-                      <h3 class="project-title">Test a Perceptual Phenomenon</h3></a>
-                    <p class="project-summary">A credited project for Machine Learning Foundation Nanodegree.</p>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/iXGv-5DSQytU4yMr-kUwGcE8mBjditOGbT43spXX11EDDt91YCV8ahc3E007SJnmJebIfCdtjqyTMeNKtcgGTBu_-rw8GKBzG0GXGvF4kC_YVdY7mtzjLq3n-MYI6VGrB3Lya7O9-g');" class="bg-img">
-                    </div><a href="/Movie-Trailer-Website-Project">
-                      <h3 class="project-title">Movie Trailer Webiste</h3></a>
-                    <p class="project-summary">A credited project for Machine Learning Foundation Nanodegree.</p>
-                </div>
-            </div>
-            <div class="row project-row">
-                <div class="col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-2 project">
-                    <div style="background-image:url('https://lh3.googleusercontent.com/FsMF74wRKm-0DOSyYCJzvYPKAziKzPmusTceopV5a0U_WmW5Svnpff1ldOVeloiN7j6KLVjwWwsWXpLOrQESBACRvX2QrXc10QNjqIFeMawlACEXVh3p96FZm-G0VeCoEX8Z0iV4cQ" class="bg-img"></div>
-                    <a href="/Making-Recommendations">
-                      <h3 class="project-title">Simple Recommender System</h3></a>
-                    <p class="project-summary">A simple recommender system based on Pearson's Coefficient and/or Eucledian Distance.</p>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2 project">
-                  <h3 class="project-title">And Many more on <a href="https://github.com/piyush2896">github...</a></h3>
-                  <p class="project-summary">My github is full of repositories which may be updated here in future. Feel free to visit there.</p>
+            <div class="block social-block">
+                <div class="title">Let's Connect</div>
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <!-- This is custom button shaped link points to the blog. -->
-            <div class="row">
-                <div class="col-md-12 col-xs-12 blog-div">
-                    <a href="https://predictiveprogrammer.com/" target="_blank">
-                        <h4 class="blog">Visit Blog</h4>
-                    </a>
+        <div id="top-bar-wrapper">
+            <div class="social-block">
+                <div class="content">
+                    <a class="social-btn" href="mailto:piyushmalhotra28@gmail.com" target="_blank" title="mail: Piyush Malhotra"><i class="fa fa-envelope"></i></a>
+                    <a class="social-btn" href="https://github.com/piyush2896" target="_blank" title="github: @piyush2896"><i class="fab fa-github-square"></i></a>
+                    <a class="social-btn" href="https://instagram.com/piyush2896" target="_blank" title="Instagram: @piyush2896"><i class="fab fa-instagram"></i></a>
+                    <a class="social-btn" href="https://www.facebook.com/piyush2896" target="_blank" title="facebook: @piyush2896"><i class="fab fa-facebook-square"></i></a>
+                    <a class="social-btn" href="https://twitter.com/piyush2896" target="_blank" title="twitter: @piyush2896"><i class="fab fa-twitter-square"></i></a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/piyush2896/" target="_blank" title="LinkedIn: /in/piyush2896"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-
-
-        <!-- Footer Comprise of 5 self explanatory images each pointing to respective Social media sites. -->
-        <footer class="bg-primary text-center row">
-            <div class="col-md-12 col-xs-12">
-                <a href="https://www.facebook.com/piyush2896" target="_blank">
-                    <img src="images/facebook.png" class="connect" alt="Connect on Facebook">
-                </a>
-                <a href="https://github.com/piyush2896" target="_blank">
-                    <img src="images/github.png" class="connect" alt="Connect on Github">
-                </a>
-                <a href="https://twitter.com/piyush2896" target="_blank">
-                    <img src="images/twitter.png" class="connect" alt="Connect on Twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/piyush2896/" target="_blank">
-                    <img src="images/linkedin.png" class="connect" alt="Connect on LinkedIn">
-                </a>
-                <a href="https://www.instagram.com/piyush_2896/" target="_blank">
-                    <img src="images/instagram.png" class="connect" alt="Connect on Instagram">
-                </a>
+            <a onclick="navMenuExpand(this)" id="openup">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+        </div>
+        <div class="dropdown-content" id="dropdown-nav">
+                <a href="/">Home</a>
+                <a href="https://predictiveprogrammer.com" target="_blank" title="PredictiveProgrammer">Blog</a>
+                <a href="/portfolio.html">Portfolio</a>
+                <a href="/research_interest.html">Research Interest</a>
+                <a href="/contact.html">Contact Me</a>
+                <a href="/resume.html">Resume</a>
+        </div>
+        <!--Main Content-->
+        <div class="page-bg"></div>
+        <div class="page-content-wrapper">
+            <div class="page-content-inner not-home">
+                <div class="container-fluid">
+                        <div class="row">
+                            <div class="text-block col-xs-11">
+                                <div class="col-xs-8 heading">Portfolio</div>
+                                <div class="col-xs-12">
+                                <hr></div>
+                                <div class="col-xs-12">Have a look at some of the selected projects from my portfolio. Want to learn more? Head over to my <a href="https://github.com/piyush2896" target="_blank">github profile</a>.</div>
+                            </div>
+                        </div>
+                    <div id="projects"></div>
+                </div>
             </div>
-        </footer>
+        </div>
     </div>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/sidebar-title.js"></script>
+    <script src="js/nav-menu.js"></script>
+    <script src="js/portfolio_data_handler.js"></script>
 </body>
 </html>
