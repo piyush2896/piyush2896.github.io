@@ -185,7 +185,7 @@ a#openup {
     left: 0;
     right: 0;
     z-index: -1;
-    background: url('../img/home_banner2.jpeg') top center no-repeat #bababa;
+    background: url('../img/home_banner2.jpg') top center no-repeat #bababa;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
