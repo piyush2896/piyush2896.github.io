@@ -17,13 +17,18 @@
         "displayHead": "true",
         "detail": [
 			{
+				"head": "Machine Learning Instructor | StarLight Academy",
+                "sub-head": "FEBURARY 2019 - JUNE 2019",
+                "article": "As trustee of the Academy I handle the Computer Science department and teach Machine Learning to students coming from different stages of life."
+			},
+            {
 				"head": "Machine Learning Intern | Untrodden Labs",
                 "sub-head": "JUNE 2018 - OCTOBER 2018",
                 "article": "<b>- ThingsGoSocial</b>:  Train, Tested and Deployed Non-Intrusive Load Monitoring (NILM) Deep Learning models. Current NILM system scores a - <b>F1 score for different appliances varied between 0.1 and 0.9 over test set</b>.<br/><b>- Research HVAC</b>: Apply Deep Reinforcement Learning Heating, ventilation, and air conditioning (HVAC) systems for consumption reduction."
 			},
             {
                 "head": "Freelance Artificial Intelligence Developer",
-                "sub-head": "APRIL 2018 - PRESENT",
+                "sub-head": "APRIL 2018 - APRIL 2019",
                 "article": "Freelance Artificial Intelligence Developer currently working locally and on UpWork with 95% completion rate."
             },
             {
