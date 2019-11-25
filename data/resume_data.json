@@ -2,7 +2,7 @@
     "Education": {
         "displayHead": "false",
         "detail": [
-            "MS in Software Engineering from Arizona State University [August 2019 - Present]",
+            "MS in Software Engineering from Arizona State University [August 2019 - May 2021]",
             "B.Tech in Computer Science and Engineering from Amity University Uttar Pradesh[2014 - 2018] with 7.14 CGPA.",
             "Deep Learning Specialization Coursera. Certificate Earned on April 04, 2018.",
             "Machine Learning Basic Nanodegree Udacity. Certificate Earned on November 13, 2017.",
@@ -19,32 +19,32 @@
 			{
 				"head": "Machine Learning Instructor | StarLight Academy",
                 "sub-head": "FEBURARY 2019 - JUNE 2019",
-                "article": "As trustee of the Academy I handle the Computer Science department and teach Machine Learning to students coming from different stages of life."
+                "article": "- Conducted Machine Learning bootcamp. Topics Covered:<br> - Version Control and Jupyter – Introduction to Git/GitHub and Prototyping Environment.<br>- Data Visualization – Introduction to charts like scatter plot, bar chart, pie charts and other categories in Matplotlib. <br>- Machine Learning techniques – Linear and Logistic Regression, SVMs, Naïve Bayes, Random Forests and Regularization. <br>- Deep Learning techniques – Neural Network, Convolutional Neural Networks and Recurrent Neural Networks."
 			},
             {
 				"head": "Machine Learning Intern | Untrodden Labs",
                 "sub-head": "JUNE 2018 - OCTOBER 2018",
-                "article": "<b>- ThingsGoSocial</b>:  Train, Tested and Deployed Non-Intrusive Load Monitoring (NILM) Deep Learning models. Current NILM system scores a - <b>F1 score for different appliances varied between 0.1 and 0.9 over test set</b>.<br/><b>- Research HVAC</b>: Apply Deep Reinforcement Learning Heating, ventilation, and air conditioning (HVAC) systems for consumption reduction."
+                "article": "Responsible for iteratively training, testing and deploying deep learning models that can automate the process of reducing electricity consumption. <br>- Train and Tested Non-Intrusive Load Monitoring (NILM) Deep Learning models in Python using TensorFlow. <br>- Deployed the model using TensorFlow-serving on AWS.  <br>- Migrated the deployed model from AWS to Google Cloud as the company decided to migrate. <br>- Current NILM system scores an – F1 score for different appliances varied between 0.1 and 0.9 over test set. <br>- Developed prototype for Deep Reinforcement Learning applied to Heating, ventilation, and air conditioning (HVAC) systems for consumption reduction. <br>- The Deep RL model gave 12% improvement in simulated environment."
 			},
             {
-                "head": "Freelance Artificial Intelligence Developer",
+                "head": "Freelance Developer",
                 "sub-head": "APRIL 2018 - APRIL 2019",
-                "article": "Freelance Artificial Intelligence Developer currently working locally and on UpWork with 95% completion rate."
+                "article": "- Deployed Tensorflow Object Recognition model<br>- Integrated Machine Learning models with RESTFul API <br>- Full Stack Website Development for an e-commerce firm"
             },
             {
                 "head": "Computer Programming Instructor | StarLight Academy",
                 "sub-head": "MAY 2017 - March 2018",
-                "article": "Taught Programming courses - C/C++, Java and Python to high school and secondary school students."
+                "article": "- Taught programming concepts to 10th to 12th graders <br>- Core C/C++ with concepts like Tokens, Keywords, Memory Allocation and Pointers <br>- Object Oriented Programming in Core Java as well as Python Programming Languages <br>- Taught Machine Learning basic concepts to Undergrad Students – Linear Regression, SVMs, Naïve Bayes, Decision Trees, XGBoost."
             },
             {
-                "head": "Intern | StarLight Academy",
+                "head": "Full Stack Developer Intern | StarLight Academy",
                 "sub-head": "MAY 2017 - JULY 2017 (12 weeks)",
-                "article": "Designed the front end (User Interface) of the academy's website."
+                "article": "- Full stack development of website for the internal usage – billing, database management, message broadcasting. <br>- Developed databased using MySQL to maintain tables of students and teachers enrolled. <br>- Billing services to maintain billing data and receipt generation<br>- Message broadcasting using RESTful APIs."
             },
             {
                 "head": "Intern | Institute of System Studies and Analysis, Defence Research and Development Organisation (D.R.D.O)",
                 "sub-head": "MAY 2016 - JULY 2016 (8 weeks)",
-                "article": "Made a Mission Simulator Editor to generate a mission simulation file that can be ran to check the efficiency of the planned mission. "
+                "article": "- Developed Mission Simulation Editor using JSP and Servlets <br>- The mission simulator was to generate a dynamic army mission simulation and check its efficiency.<br>- The simulation was done using Drools Engine."
             },
             {
                 "head": "Vice President | Amity Software Testing Club, Amity University",
@@ -66,6 +66,11 @@
                 "head": "Parameter Estimation of Software Reliability Growth Models Using Krill Herd Algorithm.",
                 "sub-head": "DATE OF CONFERENCE: 12-13 JANUARY, 2017",
                 "article": "The proposed approach put forward an effective estimation of the parameters for software reliability growth models with the help of Krill Herd Algorithm. The Software Reliability Growth model is considered to be incomplete, if the parameters of model are not known and are not validated over failure datasets. Many techniques are present for estimating parameters of model based on numerical estimation, but the scope of quality enhancement still remain open. The proposed Krill Herd Algorithm based approach outclasses the problems of numerical estimation. The proposed work is validated over four real-time datasets.  <a href=\"http://ieeexplore.ieee.org/document/7943260/\" target=\"blank\">Check it here.</a>"
+            },
+            {
+                "head": "Neural Architecture Search using Meta-heuristics",
+                "sub-head": "Selected in top 10 posters at Depertmental level",
+                "article": "As part of final year thesis conducted a project based approach towards Meta-heuristics in Deep Learning and devised a <b>Neural Architecture Search using Meta-heuristics. Selected in top 10 posters at Department Level.<b>"
             },
             {
                 "head": "APP-A-THON event at India Smart Grid Week 2017",
